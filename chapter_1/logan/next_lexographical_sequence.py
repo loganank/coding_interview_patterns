@@ -23,5 +23,3 @@ def next_lexicographical_sequence(s: str) -> str:
 
     # if everything in string was in descending order (no breaks) just reverse string
     return s[::-1]
-    
-next_lexicographical_sequence('abcedda')
